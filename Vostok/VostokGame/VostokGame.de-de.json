@@ -1,0 +1,18 @@
+[
+  {
+    "Identifier": "ViewSelector_CommandersSeat",
+    "Text": "COMMANDER-SITZ"
+  },
+  {
+    "Identifier": "ViewSelector_MainPanel",
+    "Text": "HAUPT-PANEL"
+  },
+  {
+    "Identifier": "ViewSelector_ControlPanel",
+    "Text": "STEUER-PANEL"
+  },
+  {
+    "Identifier": "ViewSelector_VZOR",
+    "Text": "VZOR-PERISKOP"
+  }
+]

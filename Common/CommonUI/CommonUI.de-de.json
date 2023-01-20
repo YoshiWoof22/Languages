@@ -1,0 +1,194 @@
+[
+  {
+    "Identifier": "Button_Roger",
+    "Text": "ROGER"
+  },
+  {
+    "Identifier": "Button_Deny",
+    "Text": "ABLEHNEN"
+  },
+  {
+    "Identifier": "Button_OK",
+    "Text": "OK"
+  },
+  {
+    "Identifier": "MissionObjectives_Title",
+    "Text": "JETZIGES ZIEL"
+  },
+  {
+    "Identifier": "Loading_PrepareCockpitState",
+    "Text": "[ BEREITE COCKPIT VOR... ]"
+  },
+  {
+    "Identifier": "ViewSelector_Title",
+    "Text": "[V] - Kameraposition"
+  },
+  {
+    "Identifier": "ViewSelector_External",
+    "Text": "AUSSEN"
+  },
+  {
+    "Identifier": "ViewSelector_Orbital",
+    "Text": "ORBITAL"
+  },
+  {
+    "Identifier": "ViewSelector_MissionPad",
+    "Text": "MISSIONS-KLEMMBRETT"
+  },
+  {
+    "Identifier": "InGameMenu_Title",
+    "Text": "MENÜ"
+  },
+  {
+    "Identifier": "InGameMenu_ResumeSession",
+    "Text": "SITZUNG FORTSETZEN"
+  },
+  {
+    "Identifier": "InGameMenu_Failures",
+    "Text": "PROBLEME"
+  },
+  {
+    "Identifier": "InGameMenu_Audio",
+    "Text": "AUDIO"
+  },
+  {
+    "Identifier": "InGameMenu_InputControls",
+    "Text": "EINGABE & STEUERUNG"
+  },
+  {
+    "Identifier": "InGameMenu_SaveState",
+    "Text": "STAND SPEICHERN"
+  },
+  {
+    "Identifier": "InGameMenu_MissionControlLive",
+    "Text": "MISSION CONTROL LIVE"
+  },
+  {
+    "Identifier": "InGameMenu_Console",
+    "Text": "KONSOLE"
+  },
+  {
+    "Identifier": "InGameMenu_MissionEditor",
+    "Text": "MISSIONS-EDITOR"
+  },
+  {
+    "Identifier": "InGameMenu_EndSession",
+    "Text": "SITZUNG BEENDEN"
+  },
+  {
+    "Identifier": "InGameMenu_Graphics",
+    "Text": "GRAFIK"
+  },
+  {
+    "Identifier": "InGameMenu_CreateChecklist",
+    "Text": "CHECKLISTE ERSTELLEN"
+  },
+  {
+    "Identifier": "CommTools_Title",
+    "Text": "[C] - Kommunikation"
+  },
+  {
+    "Identifier": "CommTools_RequestRadioCheck",
+    "Text": "RADIO-CHECK"
+  },
+  {
+    "Identifier": "MissionPad_Mission",
+    "Text": "MISSION"
+  },
+  {
+    "Identifier": "MissionPad_Briefing",
+    "Text": "BRIEFING"
+  },
+  {
+    "Identifier": "MissionPad_Map",
+    "Text": "KARTE"
+  },
+  {
+    "Identifier": "MissionPad_Checklists",
+    "Text": "CHECKLISTEN"
+  },
+  {
+    "Identifier": "MissionPad_Transcript",
+    "Text": "TRANSKRIPT"
+  },
+  {
+    "Identifier": "MissionPad_Notes",
+    "Text": "NOTIZEN"
+  },
+  {
+    "Identifier": "AudioMenu_Title",
+    "Text": "AUDIOEINSTELLUNGEN"
+  },
+  {
+    "Identifier": "AudioMenu_Track_Master",
+    "Text": "Master"
+  },
+  {
+    "Identifier": "AudioMenu_Track_Cockpit",
+    "Text": "Cockpit"
+  },
+  {
+    "Identifier": "AudioMenu_Track_External",
+    "Text": "Aussen"
+  },
+  {
+    "Identifier": "AudioMenu_Track_Music",
+    "Text": "Musik"
+  },
+  {
+    "Identifier": "AudioMenu_Track_Misc",
+    "Text": "Sonstige"
+  },
+  {
+    "Identifier": "AudioMenu_Track_AstroComm",
+    "Text": "Astronauten-\nKomm."
+  },
+  {
+    "Identifier": "AudioMenu_Track_MCC",
+    "Text": "Mission Control"
+  },
+  {
+    "Identifier": "SaveState_Title",
+    "Text": "SPEICHERSTAND"
+  },
+  {
+    "Identifier": "SaveState_Body",
+    "Text": "I recently started to implement the save and load state routines. They are currently very basic and will mostly save the state vectors of the spacecraft and physical items, and the cockpit panel state.\n\nI will try to keep the save files backward compatible, but please expect breaking changes to save states due to the early state the current save/load system is in."
+  },
+  {
+    "Identifier": "SaveState_Error",
+    "Text": "Warning: It's not possible to save right now. Save State is disabled during powered maneuvers or critical mission phases."
+  },
+  {
+    "Identifier": "SaveState_ButtonSave",
+    "Text": "SPEICHERN"
+  },
+  {
+    "Identifier": "Button_Close",
+    "Text": "SCHLIESSEN"
+  },
+  {
+    "Identifier": "SaveState_SaveStateName",
+    "Text": "Speicherstand-Name:"
+  },
+  {
+    "Identifier": "SaveState_SaveStateWarning",
+    "Text": "Überschreiben?"
+  },
+  {
+    "Identifier": "Button_ClearAll",
+    "Text": "ALLES LÖSCHEN"
+  },
+  {
+    "Identifier": "Button_Clear",
+    "Text": "LÖSCHEN"
+    },
+  {
+    "Identifier": "Settings_UIScale",
+    "Text": "UI-Skalierung"
+  },
+  {
+    "Identifier": "Settings_UIScaleDesc",
+    "Text": "Skalierungsfaktor des User Interface."
+  }
+]
