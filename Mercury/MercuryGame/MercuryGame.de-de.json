@@ -1,0 +1,286 @@
+[
+  {
+    "Identifier": "ViewSelector_CommandersSeat",
+    "Text": "COMMANDER-SITZ"
+  },
+  {
+    "Identifier": "ViewSelector_LeftPanels",
+    "Text": "LINKES PANEL"
+  },
+  {
+    "Identifier": "ViewSelector_RightPanels",
+    "Text": "RECHTES PANEL"
+  },
+  {
+    "Identifier": "ViewSelector_UpperPanels",
+    "Text": "OBERES PANEL"
+  },
+  {
+    "Identifier": "ViewSelector_Window",
+    "Text": "FENSTER"
+  },
+  {
+    "Identifier": "CommReq_RadioCheck",
+    "Text": "RADIO\nPRÜFEN"
+  },
+  {
+    "Identifier": "CommReq_AltitudeCheck",
+    "Text": "HÖHEN\nPRÜFEN"
+  },
+  {
+    "Identifier": "CommReq_ClockReport",
+    "Text": "UHR LÄUFT"
+  },
+  {
+    "Identifier": "CommReq_BatteryCheck",
+    "Text": "BATTERIEN\nPRÜFEN"
+  },
+  {
+    "Identifier": "CommReq_TempCheck",
+    "Text": "TEMPERATUR\nPRÜFEN"
+  },
+  {
+    "Identifier": "CommReq_SetRETROtoNextAP",
+    "Text": "SETZE\nRETRO\nBEI AP"
+  },
+  {
+    "Identifier": "CommReq_MessageCapCom",
+    "Text": "CAPCOM"
+  },
+  {
+    "Identifier": "CommReq_PadSwitchToInternalPower",
+    "Text": "AUF INTERNEN STROM SCHALTEN"
+  },
+  {
+    "Identifier": "CommReq_RequestAbortCapability",
+    "Text": "ABBRUCH-\nFÄHIGKEIT\nTESTEN"
+  },
+  {
+    "Identifier": "CommReq_ToggleJukebox",
+    "Text": "JUKEBOX \nAN / AUS"
+  },
+  {
+    "Identifier": "CommReq_ManualAscentData",
+    "Text": "MANUELLE\nAUFSTIEGS-\nDATEN"
+  },
+  {
+    "Identifier": "CommReq_AttitudeInfo",
+    "Text": "HALTUNGS-\nDATEN"
+  },
+  {
+    "Identifier": "Radio_NegativeClockCheck",
+    "Text": "Negativ! Der Kabelschlauch ist noch verbunden."
+  },
+  {
+    "Identifier": "RadioCheck_HF",
+    "Text": "{0}, wir hören dich {1}/5 auf HF."
+  },
+  {
+    "Identifier": "RadioCheck_UHF",
+    "Text": "{0}, wir hören dich {1}/5 auf UHF."
+  },
+  {
+    "Identifier": "Radio_RetroTimeUpdated",
+    "Text": "{0}, Retro-Zeit wurde aktualisiert. Bitte prüfe nach und Korrigiere falls nötig."
+  },
+  {
+    "Identifier": "Radio_TempCheck",
+    "Text": "{0}, deine Temperatur ist OK."
+  },
+  {
+    "Identifier": "Radio_AltCheck_OnPad",
+    "Text": "dem Startplatz"
+  },
+  {
+    "Identifier": "Radio_AltCheck_WeSeeYouAt",
+    "Text": "Wir sehen dich auf {0}."
+  },
+  {
+    "Identifier": "Radio_AltCheck_NoTLM",
+    "Text": "Wir haben keine Höhen-Telemetrie."
+  },
+  {
+    "Identifier": "Radio_ClockOperational",
+    "Text": "Verstanden, Uhr läuft."
+  },
+  {
+    "Identifier": "Radio_Staging",
+    "Text": "Wir bestätigen {0}-Abkopplung."
+  },
+  {
+    "Identifier": "MissionObjective_None",
+    "Text": "Kein Missionsziel."
+  },
+  {
+    "Identifier": "MissionObjective_RogerToProceed",
+    "Text": "Drücke {0} wenn du bereit bist, fortzufahren."
+  },
+  {
+    "Identifier": "MissionObjective_RogerToProceedDefault",
+    "Text": "Drücke VERSTANDEN wenn du bereit bist, fortzufahren."
+  },
+  {
+    "Identifier": "MissionObjective_UmbilicalDisconnect",
+    "Text": "Warte auf Abflug."
+  },
+  {
+    "Identifier": "MissionObjective_State_SECO",
+    "Text": "Warte auf SECO."
+  },
+  {
+    "Identifier": "MissionObjective_Separation_Tower",
+    "Text": "Warte auf Turmtrennung."
+  },
+  {
+    "Identifier": "MissionObjective_Separation_LV",
+    "Text": "Warte auf Kapseltrennung."
+  },
+  {
+    "Identifier": "MissionObjective_CompletePanelConfiguration",
+    "Text": "Schliesse die Panel-Konfiguration ab."
+  },
+  {
+    "Identifier": "MissionObjective_ExecuteChecklistName_ProjectName_String1",
+    "Text": "Vervollständige die Checkliste mit der ID {0}."
+  },
+  {
+    "Identifier": "MissionObjective_AltitudeGreater_Value1",
+    "Text": "Erreiche eine Höhe grösser als {0} km."
+  },
+  {
+    "Identifier": "MissionObjective_AltitudeLess_Value1",
+    "Text": "Erreiche eine Höhe kleiner als {0} km."
+  },
+  {
+    "Identifier": "MissionObjective_IsApGreaterThan_Value1",
+    "Text": "Ändere die Ap-Höhe auf {0} oder höher."
+  },
+  {
+    "Identifier": "MissionObjective_IsPeGreaterThan_Value1",
+    "Text": "Ändere die Pe-Höhe auf {0} oder kleiner."
+  },
+  {
+    "Identifier": "MissionObjective_IsApGreaterThan_Value1_IsPeGreaterThan_Value2",
+    "Text": "Adjustiere den Orbit auf {0} km Ap x {1} km Pe oder höher."
+  },
+  {
+    "Identifier": "MissionObjective_IsAtRadioStation_String1",
+    "Text": "Komme in die Reichweite der Funkstation {0}."
+  },
+  {
+    "Identifier": "MissionObjective_IsAtLongitudeOfRadioStation_String1",
+    "Text": "Erreiche den Längengrad der Funkstation {0}."
+  },
+  {
+    "Identifier": "MissionObjective_Longitude_Between_Value1_Value2",
+    "Text": "Erreiche einen Längengrad zwischen {0} und {1} Grad."
+  },
+  {
+    "Identifier": "MissionObjective_Latitude_Between_Value1_Value2",
+    "Text": "Erreiche einen Höhengrad zwischen {0} und {1} Grad."
+  },
+  {
+    "Identifier": "MissionObjective_State_RetroSequenceStarting",
+    "Text": "Warte auf Retro-Sequenzstart."
+  },
+  {
+    "Identifier": "MissionObjective_IsInclination_Value1_ThresholdValue2",
+    "Text": "Erreiche eine Orbitalbahn von {0} mit einem Grenzwert von +/- {1}"
+  },
+  {
+    "Identifier": "MissionObjective_Separation_Booster",
+    "Text": "Warte auf Booster-Abkopplung."
+  },
+  {
+    "Identifier": "MissionObjective_Separation_Retro",
+    "Text": "Warte auf Retro-Akopplung."
+  },
+  {
+    "Identifier": "MissionObjective_State_Dot05GDetected",
+    "Text": "Warte auf ersten Luftwiderstand (0.05G)."
+  },
+  {
+    "Identifier": "MissionObjective_State_DrogueDeploy",
+    "Text": "Warte auf Bremsschirmauslösung."
+  },
+  {
+    "Identifier": "MissionObjective_State_MainDeploy",
+    "Text": "Warte auf Hauptschirmauslösung."
+  },
+  {
+    "Identifier": "MissionObjective_State_InHiDragZone",
+    "Text": "Warte auf Wiedereintritt."
+  },
+  {
+    "Identifier": "MissionObjective_ExecuteChecklistComplete",
+    "Text": "Schliesse die Checkliste ab."
+  },
+  {
+    "Identifier": "MissionObjective_State_OutsideHighDragZone",
+    "Text": "Durchdringe die Atmosphäre."
+  },
+  {
+    "Identifier": "MissionObjective_State_RetroBurning",
+    "Text": "Warte auf Retro-Zündung."
+  },
+  {
+    "Identifier": "MissionObjective_Altitude_Landing_Feet_LessThan_Value1",
+    "Text": "Erreiche eine Höhe von weniger als {0} Fuss."
+  },
+  {
+    "Identifier": "MissionObjective_State_Splashdown",
+    "Text": "Splashdown."
+  },
+  {
+    "Identifier": "MissionObjective_PerformBloodCheck",
+    "Text": "Führe einen Blutdruck-Check durch."
+  },
+  {
+    "Identifier": "RadioMessage_UmbilicalDisconnect",
+    "Text": "Kabelschlauch getrennt!"
+  },
+  {
+    "Identifier": "RadioMessage_SetSpacecraftToReady",
+    "Text": "Achtung {0}, wir sehen dass du noch nicht bereit bist. Setze den LAUNCH CONTROL Schalter auf READY, der Countdown ist fertig!"
+  },
+  {
+    "Identifier": "RadioCommReq_HoldCountdown",
+    "Text": "MCC, bitte den Countdown anhalten."
+  },
+  {
+    "Identifier": "RadioCommReq_ResumeCountdown",
+    "Text": "MCC, bitte mit Countdown fortfahren."
+  },
+  {
+    "Identifier": "RadioCommReq_HoldCountdown2",
+    "Text": "{0}, Countdown wurde angehalten."
+  },
+  {
+    "Identifier": "RadioCommReq_ResumeCountdown2",
+    "Text": "{0}, Countdown läuft wieder."
+  },
+  {
+    "Identifier": "RadioCommReq_HoldCountdownButtonLabel",
+    "Text": "COUNTDOWN FORTSETZEN"
+  },
+  {
+    "Identifier": "RadioCommReq_ResumeCountdownButtonLabel",
+    "Text": "COUNTDOWN ANHALTEN"
+  },
+  {
+    "Identifier": "RadioMessage_StartingAbortCapability",
+    "Text": "Abbruchfähigkeitstest läuft - Die Abort-Lampte sollte leuchten, und die Ampere-Anzeige ausschlagen."
+  },
+  {
+    "Identifier": "RadioMessage_AbortCapabilityNotStarted",
+    "Text": "Wir können den Abbruchfähigkeitstest nicht starten - stelle sicher, dass die Squibs zündbereit sind."
+  },
+  {
+    "Identifier": "RadioMessage_AbortCapabilityComplete",
+    "Text": "Abbruchfähigkeitstest abgeschlossen."
+  },
+  {
+    "Identifier": "RadioMessage_SwitchToInternalPower",
+    "Text": "Der externe Stromanschluss wurde getrennt, und die Trägerrakete befindet sich auf der internen Stromversorgung."
+  }
+]

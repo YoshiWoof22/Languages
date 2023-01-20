@@ -1,0 +1,506 @@
+[
+  {
+    "Identifier": "CommReq_ReadyToLaunch",
+    "Text": "BEREIT ZUM START"
+  },
+  {
+    "Identifier": "CommReq_RadioCheck",
+    "Text": "RADIO\nPRÜFEN"
+  },
+  {
+    "Identifier": "CommReq_AltitudeCheck",
+    "Text": "HÖHEN\nPRÜFEN"
+  },
+  {
+    "Identifier": "CommReq_RadiatorTemperature",
+    "Text": "RADIATOR\nTEMP.\nPRÜFEN"
+  },
+  {
+    "Identifier": "CommReq_OrbitInfo",
+    "Text": "ORBIT\nINFO"
+  },
+  {
+    "Identifier": "CommReq_FCTempCheck",
+    "Text": "ZELLEN\nTEMP."
+  },
+  {
+    "Identifier": "CommReq_RequestTargetManeuver",
+    "Text": "BERECHNE\nTARGET\nBURN"
+  },
+  {
+    "Identifier": "CommReq_RetroAtNextApogee",
+    "Text": "SETZE\nRETRO\nBEI AP"
+  },
+  {
+    "Identifier": "CommReq_EVAButton",
+    "Text": "AUSSTEIGEN"
+  },
+  {
+    "Identifier": "CommReq_RequestRetroTime",
+    "Text": "RETRO-ZEIT PRÜFEN"
+  },
+  {
+    "Identifier": "CommReq_OpenHatchButtonCdr",
+    "Text": "LUKE\nÖFFNEN"
+  },
+  {
+    "Identifier": "CommReq_OpenHatchButtonPilot",
+    "Text": "LUKE\nÖFFNEN"
+  },
+  {
+    "Identifier": "CommReq_ToggleJukebox",
+    "Text": "JUKEBOX\nAN / AUS"
+  },
+  {
+    "Identifier": "CommReq_ManualAscentData",
+    "Text": "MANUELLE\nAUFSTIEGS-\nDATEN"
+  },
+  {
+    "Identifier": "CommReq_AttitudeData",
+    "Text": "HALTUNGS-\nDATEN"
+  },
+  {
+    "Identifier": "CommReq_ToggleDRing",
+    "Text": "D-RING\nAN / AUS"
+  },
+  {
+    "Identifier": "CommReq_SwitchToInternalPower",
+    "Text": "AUF INTERNEN STROM SCHALTEN"
+  },
+  {
+    "Identifier": "CommReq_AbortCapabilityTest",
+    "Text": "ABBRUCH-\nFÄHIGKEIT\nTESTEN"
+  },
+  {
+    "Identifier": "CommReq_RetroAtTargetCursor",
+    "Text": "SETZE\nRETRO\nBEI CURSOR"
+  },
+  {
+    "Identifier": "ViewSelector_CommandersSeat",
+    "Text": "COMMANDER-SITZ"
+  },
+  {
+    "Identifier": "ViewSelector_CommanderPanel",
+    "Text": "COMMANDER-KONSOLE"
+  },
+  {
+    "Identifier": "ViewSelector_CenterPanel",
+    "Text": "MITTEL-KONSOLE"
+  },
+  {
+    "Identifier": "ViewSelector_CenterPedestal",
+    "Text": "MITTEL-KONSOLE"
+  },
+  {
+    "Identifier": "ViewSelector_CoPilotSeat",
+    "Text": "PILOTEN-SITZ"
+  },
+  {
+    "Identifier": "ViewSelector_CoPilotPanel",
+    "Text": "PILOTEN-KONSOLE"
+  },
+  {
+    "Identifier": "ViewSelector_RoofPanel",
+    "Text": "DACH-KONSOLE"
+  },
+  {
+    "Identifier": "OrbitalCursor_Title",
+    "Text": "O R B I T A L - C U R S O R"
+  },
+  {
+    "Identifier": "OrbitalCursor_Move",
+    "Text": "ORBITAL-CURSOR BEWEGEN"
+  },
+  {
+    "Identifier": "OrbitalCursor_Time",
+    "Text": "ZEIT ZU CURSOR:"
+  },
+  {
+    "Identifier": "EVA_RemainingFuel",
+    "Text": "HHMU-TREIBSTOFF"
+  },
+  {
+    "Identifier": "EVA_Enter",
+    "Text": "EINSTEIGEN"
+  },
+  {
+    "Identifier": "EVA_GetBackpack",
+    "Text": "AUFSAMMELN"
+  },
+  {
+    "Identifier": "CommReq_AstroReadyToLaunch",
+    "Text": "{0} {1} ist startbereit!"
+  },
+  {
+    "Identifier": "CommReq_RadioVoiceCheck",
+    "Text": "{0}, wir hören dich 5/5."
+  },
+  {
+    "Identifier": "CommReq_UpdatedRetroTime",
+    "Text": "{0}, Retro-Zeit wurde aktualisiert und ist jetzt {{timeToRetro}}. Bitte prüfe [Core 19] und Korrigiere falls nötig."
+  },
+  {
+    "Identifier": "CommReq_CheckRetroTime",
+    "Text": "{0}, Zeit bis RETRO ist {{timeToRetro}}. Falls nötig, adjustiere mit [Core 19]."
+  },
+  {
+    "Identifier": "CommReq_RadiatorStatus1",
+    "Text": "Temperatur von Radiatoraugang ist gut, Eingang ist bei {0}. Schalte RADIATOR auf FLOW."
+  },
+  {
+    "Identifier": "CommReq_RadiatorStatus2",
+    "Text": "Temperatur von Radiatoraugang ist ok, Eingang ist bei {0}. Schalte RADIATOR auf FLOW."
+  },
+  {
+    "Identifier": "CommReq_RadiatorStatus3",
+    "Text": "Temperatur von Radiatoraugang ist höher als erwartet, Eingang ist bei {0}. Schalte RADIATOR auf BY-PASS."
+  },
+  {
+    "Identifier": "CommReq_RadiatorStatus4",
+    "Text": "Temperatur von Radiatoraugang ist zu hoch, Eingang ist bei {0}. Schalte RADIATOR auf BY-PASS."
+  },
+  {
+    "Identifier": "CommReq_RadiatorStatus5",
+    "Text": "Temperatur von Radiatoraugang ist viel zu hoch, Eingang ist bei {0}. Schalte RADIATOR auf BY-PASS."
+  },
+  {
+    "Identifier": "CommReq_RadiatorStatus6",
+    "Text": "Adapter getrennt, du hast keine Radiatoren mehr."
+  },
+  {
+    "Identifier": "CommReq_FCStatus1",
+    "Text": "Treibstoffzelle 1, Temperatur ist OK."
+  },
+  {
+    "Identifier": "CommReq_FCStatus2",
+    "Text": "Treibstoffzelle 1, Temperatur ist niedrig. Schalte bitte auf WARMUP."
+  },
+  {
+    "Identifier": "CommReq_FCStatus3",
+    "Text": "Treibstoffzelle 2, Temperatur ist OK."
+  },
+  {
+    "Identifier": "CommReq_FCStatus4",
+    "Text": "Treibstoffzelle 2, Temperatur ist niedrig. Schalte bitte auf WARMUP."
+  },
+  {
+    "Identifier": "CommReq_FCStatus5",
+    "Text": "Adapter getrennt, du hast keine Treibstoffzellen mehr."
+  },
+  {
+    "Identifier": "CommReq_AltStatus1",
+    "Text": "Seehöhe."
+  },
+  {
+    "Identifier": "CommReq_AltStatus2",
+    "Text": "unter 9 Seemeilen."
+  },
+  {
+    "Identifier": "CommReq_AltStatus3",
+    "Text": "Wir sehen dich bei {0} Seemeilen."
+  },
+  {
+    "Identifier": "CommReq_NoTelemetry",
+    "Text": "Wir sehen keine Telemetrie."
+  },
+  {
+    "Identifier": "CommReq_Acknowledged",
+    "Text": "Verstanden!"
+  },
+  {
+    "Identifier": "CommReq_StageSep",
+    "Text": "{0} getrennt."
+  },
+  {
+    "Identifier": "ReqBurn_Response",
+    "Text": "{0}, Burn geplant bei {1}, mit Delta-V {2}"
+  },
+  {
+    "Identifier": "ReqBurnResponse_NotCircular",
+    "Text": "{0}, wir können keinen Burn berechnen. Dein Orbit ist nicht zirkularisiert - bitte mach dies, bevor du einen Rendezvous-Burn planst."
+  },
+  {
+    "Identifier": "ReqBurnResponse_NotIncl",
+    "Text": "{0}, wir können keinen Burn berechnen. Deine Orbital-Ebene stimmt nicht mit der deines Zieles überein - bitte korrigiere dies, bevor du einen Rendezvous-Burn planst"
+  },
+  {
+    "Identifier": "Cockpit_AbortCapabilityTest",
+    "Text": "{0}, wir starten den Abbruch & Squib-Fähigkeitstest."
+  },
+  {
+    "Identifier": "Cockpit_SquibTestFailed",
+    "Text": "{0}, Squib-Test fehlgeschlagen. Stelle sicher, dass die Squib-Batterien & Squib-Bus-Strom auf [UMB] geschaltet sind."
+  },
+  {
+    "Identifier": "Cockpit_SquibTestComplete",
+    "Text": "{0}, Squib-Test abgeschlossen. Prüfe, ob die Abort-Lampe leuchtet."
+  },
+  {
+    "Identifier": "Cockpit_SquibTestComplete",
+    "Text": "{0}, Squib-Test abgeschlossen. Prüfe, ob die Abort-Lampe leuchtet."
+  },
+  {
+    "Identifier": "Cockpit_AbortSquibTestFailed",
+    "Text": "{0}, Abbruch & Squib-Fähigkeitstest wurde erfolgreich abgeschlossen."
+  },
+  {
+    "Identifier": "Cockpit_AbortSquibTestComplete",
+    "Text": "{0}, der Test konnte nicht erfolgreich abgeschlossen werden."
+  },
+  {
+    "Identifier": "Cockpit_AbortSquibTestInProgress",
+    "Text": "{0}, der Abbruch & Squib-Fähigkeitstest läuft bereits."
+  },
+  {
+    "Identifier": "Cockpit_InternalPower",
+    "Text": "{0}, schalte auf interne Stromversorgung."
+  },
+  {
+    "Identifier": "Cockpit_EVA",
+    "Text": "{0}, ein Raumspaziergang ist jetzt nicht möglich."
+  },
+  {
+    "Identifier": "Cockpit_UpdateTTRetro",
+    "Text": "{0}, RETRO-Zeit wurde auf {{timeToRetro}} aktualisiert. Bitte prüfe [Core 19] und Korrigiere falls nötig."
+  },
+  {
+    "Identifier": "Cockpit_UnableToUpdateTTRetro",
+    "Text": "{0}, wir können die RETRO-Zeit nicht aktualisieren. Prüfe, ob der Computer läuft und das DCS mit Strom versorgt ist."
+  },
+  {
+    "Identifier": "MissionObjective_None",
+    "Text": "Kein Missionsziel."
+  },
+  {
+    "Identifier": "MissionObjective_RogerToProceed",
+    "Text": "Drücke {0} wenn du bereit bist, fortzufahren."
+  },
+  {
+    "Identifier": "MissionObjective_RogerToProceedDefault",
+    "Text": "Drücke VERSTANDEN wenn du bereit bist, fortzufahren."
+  },
+  {
+    "Identifier": "MissionObjective_CompleteActivity",
+    "Text": "Schliesse die Aktivität ab."
+  },
+  {
+    "Identifier": "MissionObjective_UmbilicalDisconnect",
+    "Text": "Warte auf Abflug."
+  },
+  {
+    "Identifier": "MissionObjective_Separation_StageI",
+    "Text": "Warte auf Stage-1-Trennung."
+  },
+  {
+    "Identifier": "MissionObjective_Separation_StageII",
+    "Text": "Warte auf Stage-2-Trennung."
+  },
+  {
+    "Identifier": "MissionObjective_Separation_Adapter",
+    "Text": "Trenne den Adapter."
+  },
+  {
+    "Identifier": "MissionObjective_Separation_Retro",
+    "Text": "Warte auf Retro-Abkopplung."
+  },
+  {
+    "Identifier": "MissionObjective_CompletePanelConfiguration",
+    "Text": "Schliesse die Panel-Konfiguration ab."
+  },
+  {
+    "Identifier": "MissionObjective_Rendezvous_DistanceToTarget_LessThanValue1Feet",
+    "Text": "Erreiche eine Entfernung von weniger als {0} Fuss zum Ziel"
+  },
+  {
+    "Identifier": "MissionObjective_ExecuteChecklistName_ProjectName_String1",
+    "Text": "Vervollständige die Checkliste mit der ID {0}."
+  },
+  {
+    "Identifier": "MissionObjective_ExecuteChecklistComplete",
+    "Text": "Schliesse die Checkliste ab."
+  },
+  {
+    "Identifier": "MissionObjective_AltitudeGreater_Value1",
+    "Text": "Erreiche eine Höhe grösser als {0} km."
+  },
+  {
+    "Identifier": "MissionObjective_AltitudeLess_Value1",
+    "Text": "Erreiche eine Höhe kleiner als {0} km."
+  },
+  {
+    "Identifier": "MissionObjective_AltitudeGreater_Value1_ft",
+    "Text": "Erreiche eine Höhe grösser als {0} Fuss."
+  },
+  {
+    "Identifier": "MissionObjective_AltitudeLess_Value1_ft",
+    "Text": "Erreiche eine Höhe kleiner als {0} Fuss."
+  },
+  {
+    "Identifier": "MissionObjective_IsApGreaterThan_Value1",
+    "Text": "Ändere die Ap-Höhe auf {0} oder höher."
+  },
+  {
+    "Identifier": "MissionObjective_IsPeGreaterThan_Value1",
+    "Text": "Ändere die Pe-Höhe auf {0} oder kleiner."
+  },
+  {
+    "Identifier": "MissionObjective_IsApGreaterThan_Value1_IsPeGreaterThan_Value2",
+    "Text": "Adjustiere den Orbit auf {0} km Ap x {1} km Pe oder höher."
+  },
+  {
+    "Identifier": "MissionObjective_IsAtRadioStation_String1",
+    "Text": "Komme in die Reichweite der Funkstation {0}."
+  },
+  {
+    "Identifier": "MissionObjective_IsAtLongitudeOfRadioStation_String1",
+    "Text": "Erreiche den Längengrad der Funkstation {0}."
+  },
+  {
+    "Identifier": "MissionObjective_Longitude_Between_Value1_Value2",
+    "Text": "Erreiche einen Längengrad zwischen {0} und {1} Grad."
+  },
+  {
+    "Identifier": "MissionObjective_Latitude_Between_Value1_Value2",
+    "Text": "Erreiche einen Höhengrad zwischen {0} und {1} Grad."
+  },
+  {
+    "Identifier": "MissionObjective_State_RetroSequenceStarting",
+    "Text": "Warte auf Retro-Sequenzstart."
+  },
+  {
+    "Identifier": "MissionObjective_IsInclination_Value1_ThresholdValue2",
+    "Text": "Erreiche eine Orbitalbahn von {0} mit einem Grenzwert von +/- {1}"
+  },
+ {
+    "Identifier": "MissionObjective_Separation_Booster",
+    "Text": "Warte auf Booster-Abkopplung."
+  },
+  {
+    "Identifier": "MissionObjective_Separation_Retro",
+    "Text": "Waiting for Retrograde section separation."
+  },
+  {
+    "Identifier": "MissionObjective_State_Dot05GDetected",
+    "Text": "Warte auf ersten Luftwiderstand (0.05G)."
+  },
+  {
+    "Identifier": "MissionObjective_State_DrogueDeploy",
+    "Text": "Warte auf Bremsschirmauslösung."
+  },
+  {
+    "Identifier": "MissionObjective_State_MainDeploy",
+    "Text": "Warte auf Hauptschirmauslösung."
+  },
+  {
+    "Identifier": "MissionObjective_State_InHiDragZone",
+    "Text": "Warte auf Wiedereintritt."
+  },
+  {
+    "Identifier": "MissionObjective_State_InHiDragZone",
+    "Text": "Warte auf Wiedereintritt."
+  },
+  {
+    "Identifier": "MissionObjective_State_OutsideHighDragZone",
+    "Text": "Durchdringe die Atmosphäre."
+  },
+  {
+    "Identifier": "MissionObjective_State_SSECO",
+    "Text": "Warte auf SECO."
+  },
+  {
+    "Identifier": "State_InCockpit",
+    "Text": "Steige in das Cockpit."
+  },
+  {
+    "Identifier": "State_RCSEnabled",
+    "Text": "Aktiviere das RCS."
+  },
+  {
+    "Identifier": "State_InEVA",
+    "Text": "Führe einen Raumspaziergang durch."
+  },
+  {
+    "Identifier": "MissionObjective_CheckComputerProgramRunning_ComputerMode",
+    "Text": "Starte das {0} OBC-Programm."
+  },
+  {
+    "Identifier": "MissionObjective_State_RetroBurning",
+    "Text": "Warte auf Retro-Zündung."
+  },
+  {
+    "Identifier": "MissionObjective_Altitude_Landing_Feet_LessThan_Value1",
+    "Text": "Erreiche eine Höhe von weniger als {0} Fuss."
+  },
+  {
+    "Identifier": "MissionObjective_State_Splashdown",
+    "Text": "Splashdown."
+  },
+  {
+    "Identifier": "MissionObjective_Orbit_TimeToAp_Value1",
+    "Text": "Warte bis T-{0} Sekunden zum Apoapsis. Übrige Zeit: {1}"
+  },
+  {
+    "Identifier": "MissionObjective_Orbit_TimeToPe_Value1",
+    "Text": "Warte bis T-{0} Sekunden zum Periapsis. Übrige Zeit: {1}"
+  },
+  {
+    "Identifier": "MissionObjective_Orbit_TimeToTargetBurn_Value1Seconds",
+    "Text": "Warte bis T-{0} Sekunden zum Rendezvous-Burn. Übrige Zeit: {1}"
+  },
+  {
+    "Identifier": "MissionObjective_Orbit_IsCircular_AltitudeKmValue1_ThresholdValue2",
+    "Text": "Erreiche einen zirkularen Orbit mit einer höhe von {0} km, +/- {1}"
+  },
+  {
+    "Identifier": "MissionObjective_Orbit_IsCircular_ThresholdValue1",
+    "Text": "Erreiche einen zirkularen Orbit mit einer Ap/Pe-Höhendifferenz von < {0} km"
+  },
+  {
+    "Identifier": "MissionObjective_Orbit_IsOnTarget_ThresholdValue1",
+    "Text": "Erreiche den Ziel-Orbit: Ap {0} x Pe {1} km)"
+  },
+  {
+    "Identifier": "MissionObjective_Radio_SuccessRequestTargetBurn",
+    "Text": "Berechne einen Target/Rendezvous-Burn."
+  },
+  {
+    "Identifier": "MissionObjective_Radio_TimeToTargetBurn_Value1",
+    "Text": "Warte bis T-{0} Sekunden zum Rendezvous-Burn. Übrige Zeit: {1}"
+  },
+  {
+    "Identifier": "MissionObjective_State_Docked",
+    "Text": "Docke mit dem Ziel an."
+  },
+  {
+    "Identifier": "MissionObjective_State_Undocked",
+    "Text": "Docke dich vom Ziel ab."
+  },
+  {
+    "Identifier": "MissionObjective_Orbit_TimeToRetro_Value1Seconds",
+    "Text": "Erreiche T-{0} Sekunden zur RETRO-Zeit. Übrige Zeit: {1}"
+  },
+  {
+    "Identifier": "RadioCommReq_HoldCountdown",
+    "Text": "MCC, bitte den Countdown anhalten."
+  },
+  {
+    "Identifier": "RadioCommReq_ResumeCountdown",
+    "Text": MCC, bitte mit Countdown fortfahren."
+  },
+  {
+    "Identifier": "RadioCommReq_HoldCountdown2",
+    "Text": "{0}, Countdown wurde angehalten."
+  },
+  {
+    "Identifier": "RadioCommReq_ResumeCountdown2",
+    "Text": "{0}, Countdown läuft wieder."
+  },
+  {
+    "Identifier": "RadioCommReq_HoldCountdownButtonLabel",
+    "Text": "COUNTDOWN FORTSETZEN"
+  },
+  {
+    "Identifier": "RadioCommReq_ResumeCountdownButtonLabel",
+    "Text": "COUNTDOWN ANHALTEN"
+  }
+]
